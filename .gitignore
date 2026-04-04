@@ -160,3 +160,70 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# ============================================
+# LongCat-AudioDiT specific ignore rules
+# ============================================
+
+# Generated output files
+output/
+
+# Sample audio files (user-generated content)
+samples/
+
+# VS Code workspace configuration (user-specific)
+*.code-workspace
+
+# Duplicate README file
+README_LONGCAT_AUDIODIT.md
+
+# HuggingFace model cache (downloaded models)
+.huggingface/
+.cache/
+huggingface/
+
+# Model checkpoints (large files)
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Large audio files
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local configuration files
+config.json
+config.yaml
+config.yml
+.env.local
+.env.production
+.env.development
