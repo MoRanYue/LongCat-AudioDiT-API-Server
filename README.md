@@ -1,3 +1,5 @@
+# This repository was deprecated, please check out [LocalSotaTalk](https://github.com/MoRanYue/LocalSotaTalk).
+
 # LongCat-AudioDiT API 服务
 
 基于 FastAPI 的 LongCat-AudioDiT TTS 模型 API 服务，提供完整的 RESTful 接口。
